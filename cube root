@@ -1,0 +1,12 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int n;
+	float m;
+	cout<<"enter the number";
+	cin>>n;
+	m=cbrt(n);
+	cout<<m;
+}
