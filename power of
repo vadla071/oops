@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int n,s,m=1;
+	cout<<"enter the number";
+	cin>>n;
+	cout<<"enter the power to be multiplied";
+	cin>>s;
+	while(s!=0)
+	{
+		m*=n;
+		--s;
+	}
+	cout<<"the power of the number is "<<m ;
+}
